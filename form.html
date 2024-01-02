@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h3>Different Typs of Inputs: </h3>
+    <!-- Text input -->
+    <input type="text" name="username" id="username">
+    <br>
+    
+    <!-- Password Input -->
+    <input type="password" name="password" id="password">
+    <br>
+
+    <!-- Email Input -->
+    <input type="email" name="email" id="email">
+    <br>
+
+    <!-- Number Iput -->
+    <input type="number" name="quantity" id="quantity">
+    <br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" name="sucscribe" id="subscribe">
+    <br>
+
+
+    <!-- Radio Button -->    
+    <input type="radio" name="gender" id="male" value="male">
+    <input type="radio" name="gender" id="female" value="female">
+    <br>
+
+    <!-- File input -->
+    <input type="file" name="file" id="file">
+    <br>
+
+    <!-- Date Input -->
+    <input type="date" name="birthday" id="birthday">
+    <br>
+
+    <!-- Time input -->
+    <input type="time" name="meeting-time" id="meetingtime">
+    <br>
+
+    <!-- Color input -->
+    <input type="color" name="color" id="color">    
+    <br>
+    
+    <!-- Range Input -->
+    <input type="range" name="volume" id="volume">
+    <br>
+
+    <!-- Texr Area -->
+    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+    <br>
+
+    <h3>Form Design</h3>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+</head>
+<body>
+
+    <form action="/submit" method="post">
+        <!-- Text Input -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">Subscribe to newsletter</label>
+        <br>
+
+        <!-- Select Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
+
+
+</body>
+</html>
